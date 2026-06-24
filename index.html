@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zoni Fatma Mulia — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio Zoni Fatma Mulia — Informatics student, web developer, and traditional dancer." />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="logo-link" href="#home" aria-label="Home">
+          <svg class="logo" viewBox="0 0 100 100" role="img" xmlns="http://www.w3.org/2000/svg" aria-hidden="false">
+            <defs>
+              <linearGradient id="lg1" x1="0%" x2="100%">
+                <stop offset="0%" stop-color="#7B2FF7" />
+                <stop offset="50%" stop-color="#C86DD7" />
+                <stop offset="100%" stop-color="#FF6EC7" />
+              </linearGradient>
+            </defs>
+            <g transform="translate(10,10)">
+              <circle cx="40" cy="40" r="30" fill="url(#lg1)" opacity="0.95" />
+              <path d="M25 55 L40 28 L55 55 Z" fill="rgba(0,0,0,0.08)" />
+            </g>
+          </svg>
+        </a>
+        <nav class="nav" role="navigation">
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#videos">Videos</a>
+          <a href="#creative">Creative Portfolio</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="mouse-glow"></div>
+    <div class="floating-shapes" aria-hidden="true">
+      <span class="shape s1"></span>
+      <span class="shape s2"></span>
+      <span class="shape s3"></span>
+    </div>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <h1 class="hero-title">Zoni Fatma Mulia</h1>
+            <p class="hero-sub">Informatics Student <span class="role-emph">Web Developer</span> Traditional Dancer</p>
+            <p class="hero-desc">I design and build polished web interfaces and create traditional performance productions that connect communities.</p>
+            <div class="hero-ctas">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <figure class="profile-figure">
+              <img src="assets/profile.jpg" alt="Foto Profil Zoni Fatma Mulia" class="profile-photo" width="320" height="320" loading="eager" decoding="async">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <div class="about-card glass">
+          <div class="about-grid">
+            <figure class="about-photo">
+    <img src="./assets/about-profile.jpg"
+         alt="Foto About"
+         width="300">
+</figure> 
+
+            <div class="about-main">
+              <h2>About</h2>
+              <p>Saya adalah mahasiswa Teknik Informatika yang memiliki minat dalam pengembangan website dan desain antarmuka pengguna. Saya senang menciptakan pengalaman digital yang tidak hanya berfungsi dengan baik, tetapi juga nyaman dan mudah digunakan oleh pengguna. Melalui pengalaman dalam pengembangan frontend menggunakan HTML, CSS, dan JavaScript serta perancangan UI/UX menggunakan Figma, saya terus mengembangkan kemampuan untuk menghasilkan solusi yang menarik dan bermanfaat. Di luar bidang teknologi, saya juga aktif dalam kegiatan organisasi dan seni tari yang membantu membentuk kemampuan komunikasi, kerja sama tim, serta kreativitas dalam menyelesaikan berbagai tantangan.</p>
+              <ul class="about-list">
+                <li>Bachelor — Informatics Engineering (ongoing)</li>
+                <li>Minat: Web Development & Data Visualization</li>
+                <li>Kegiatan seni: Koreografer & Penari</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container skills priority">
+        <h2>Skills</h2>
+          <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Frontend Development</h3>
+            <div class="badges"><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JavaScript</span><span class="badge">Responsive</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>UI/UX Design</h3>
+            <div class="badges"><span class="badge">Figma</span><span class="badge">VS Code</span><span class="badge">GitHub</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+      <h3>Soft Skills</h3>
+      <div class="badges">
+        <span class="badge">Communication</span>
+        <span class="badge">Teamwork</span>
+        <span class="badge">Leadership</span>
+        <span class="badge">Problem Solving</span>
+        <span class="badge">Time Management</span>
+        <span class="badge">Adaptability</span>
+      </div>
+    </div>
+      </section>
+
+      <section id="projects" class="container projects priority">
+        <h2>Projects</h2>
+        <div class="grid project-grid">
+          <article class="card project-card">
+            <div class="project-thumb" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="github-badge" width="64" height="64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="g-git" x1="0%" x2="100%"><stop offset="0%" stop-color="#7B2FF7" /><stop offset="50%" stop-color="#C86DD7" /><stop offset="100%" stop-color="#FF6EC7" /></linearGradient></defs><rect x="0" y="0" width="24" height="24" rx="4" fill="url(#g-git)" /><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.6 7.2 10 0.5.1.7-.2.7-.5v-1.9c-2.9.6-3.5-1.2-3.5-1.2-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.8 1.8 3.5 1.3 0 0 .6-1.5 1.5-1.9-2.3-.3-4.7-1.1-4.7-5 0-1.1.4-2 .9-2.8-.1-.3-.4-1.4.1-2.9 0 0 .8-.2 2.8 1.1.8-.2 1.6-.4 2.4-.4s1.6.1 2.4.4c2-1.2 2.8-1.1 2.8-1.1.5 1.5.2 2.6.1 2.9.6.8.9 1.7.9 2.8 0 3.9-2.4 4.6-4.7 5 .9.3 1.7 1.9 1.7 3.9v2.9c0 .3.2.6.7.5 4.2-1.4 7.2-5.3 7.2-10C23.1 5.3 18.3.5 12 .5z" fill="#06060a" transform="scale(.9) translate(1.3,1.3)"/></svg>
+            </div>
+            <div class="card-content">
+              <h3>Aplikasi Explore Kepri</h3>
+              <p>Proyek aplikasi eksplorasi Kepulauan Riau — peta, tempat menarik, dan data komunitas.</p>
+              <div class="proj-tags"><span>Maps</span><span>Community</span><span>Open Data</span></div>
+              <div class="proj-actions"><a class="btn" href="https://github.com/zonyfatma/aplikasi-explore-kepri" target="_blank" rel="noopener">View Repo</a></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="videos" class="container videos">
+        <h2>Videos</h2>
+        <p class="muted">Tarian & pertunjukan — klik link untuk menonton di YouTube.</p>
+        <div class="grid youtube-grid">
+          <a class="card video-card" href="https://www.youtube.com/live/VEnpDq69VT0?si=YSXz-zmlN5Te48pP" target="_blank" rel="noopener">
+            <img class="cert-thumb" src="https://img.youtube.com/vi/VEnpDq69VT0/hqdefault.jpg" alt="Tarian — VEnpDq69VT0" loading="lazy" decoding="async">
+            <div class="card-content">
+              <h3 class="video-title">Adujak Genre 2025</h3>
+              <p class="video-desc muted">Amang Nusantara</p>
+            </div>
+          </a>
+          <a class="card video-card" href="https://www.youtube.com/live/FQGaCVBlwx8?si=J6jf2KAow7Zwi4g9" target="_blank" rel="noopener">
+            <img class="cert-thumb" src="https://img.youtube.com/vi/FQGaCVBlwx8/hqdefault.jpg" alt="Tarian — FQGaCVBlwx8" loading="lazy" decoding="async">
+            <div class="card-content">
+              <h3 class="video-title">Gebyar Merah Putih</h3>
+              <p class="video-desc muted">Pilkada Damai Kota Tanjungpinang</p>
+            </div>
+          </a>
+          <a class="card video-card" href="https://www.youtube.com/live/m7MYp2LxlfM?si=fp1tTXcjw1x8vBgq" target="_blank" rel="noopener">
+            <img class="cert-thumb" src="https://img.youtube.com/vi/m7MYp2LxlfM/hqdefault.jpg" alt="Tarian — m7MYp2LxlfM" loading="lazy" decoding="async">
+            <div class="card-content">
+              <h3 class="video-title">Festival Lampion</h3>
+              <p class="video-desc muted">Live Performance</p>
+            </div>
+          </a>
+          <a class="card video-card" href="https://www.youtube.com/live/Lp--sYQclZo?si=j_KBhWvryHOj4g9" target="_blank" rel="noopener">
+            <img class="cert-thumb" src="https://img.youtube.com/vi/Lp--sYQclZo/hqdefault.jpg" alt="Tarian — Lp--sYQclZo" loading="lazy" decoding="async">
+            <div class="card-content">
+              <h3 class="video-title">Opening Ceremony</h3>
+              <p class="video-desc muted">Asparnas 2022</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="creative" class="container creative">
+        <h2>Creative Portfolio</h2>
+        <p class="muted">Gallery — event photography, productions, and live recordings.</p>
+        <div class="creative-grid">
+          <a class="creative-item card" href="assets/Latern Lampion.jpg" aria-label="Latern Lampion — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Latern Lampion.webp" type="image/webp"><img src="assets/Latern Lampion.jpg" alt="Latern Lampion" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Latern Lampion</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2022</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/Gebyar Merah Putih.jpg" aria-label="Gebyar Merah Putih — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Gebyar Merah Putih.webp" type="image/webp"><img src="assets/Gebyar Merah Putih.jpg" alt="Gebyar Merah Putih" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Gebyar Merah Putih</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2024</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/HUT Karimun.jpg" aria-label="HUT Karimun — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/HUT Karimun.webp" type="image/webp"><img src="assets/HUT Karimun.jpg" alt="HUT Karimun" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">HUT Karimun</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2023</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/Pelangi Budaya Nusantara.jpg" aria-label="Pelangi Budaya Nusantara — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Pelangi Budaya Nusantara.webp" type="image/webp"><img src="assets/Pelangi Budaya Nusantara.jpg" alt="Pelangi Budaya Nusantara" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Pelangi Budaya Nusantara</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2023</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/Pembuatan Tarian Cecah Inai LAM Kepri.jpg" aria-label="Pembuatan Tarian Cecah Inai LAM Kepri — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Pembuatan Tarian Cecah Inai LAM Kepri.webp" type="image/webp"><img src="assets/Pembuatan Tarian Cecah Inai LAM Kepri.jpg" alt="Pembuatan Tarian Cecah Inai LAM Kepri" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Pembuatan Tarian Cecah Inai LAM Kepri</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2025</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/Tari Nusantara.jpg" aria-label="Tari Nusantara — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Tari Nusantara.webp" type="image/webp"><img src="assets/Tari Nusantara.jpg" alt="Tari Nusantara" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Tari Nusantara</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2025</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <a class="creative-item card" href="assets/Zapin Sekote.jpg" aria-label="Zapin Sekote — Creative work">
+            <picture class="creative-thumb"><source srcset="assets/Zapin Sekote.webp" type="image/webp"><img src="assets/Zapin Sekote.jpg" alt="Zapin Sekote" loading="lazy" decoding="async"></picture>
+            <div class="creative-overlay">
+              <h3 class="overlay-title">Zapin Sekote</h3>
+              <div class="overlay-meta"><span class="overlay-year">Tahun: 2025</span><span class="overlay-role">Peran: Talent</span></div>
+            </div>
+          </a>
+          <!-- removed embedded video from creative gallery — videos moved to Videos section -->
+        </div>
+      </section>
+
+      <section id="certificates" class="container certificates">
+        <h2>Certificates</h2>
+        <div class="cert-slider">
+          <button class="slider-prev" aria-label="Previous">‹</button>
+          <div class="slider-window">
+            <div class="slider-track">
+              <!-- slides -->
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Pelatihan Data Science & Machine Learning.webp" type="image/webp">
+                  <img src="assets/Sertifikat Pelatihan Data Science & Machine Learning.jpg" alt="Pelatihan Data Science & Machine Learning" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Pelatihan Data Science & Machine Learning.jpg</figcaption>
+              </figure>
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.webp" type="image/webp">
+                  <img src="assets/Sertifikat Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.jpg" alt="Pencegahan & Penanganan Kekerasan Seksual" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.jpg</figcaption>
+              </figure>
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Score Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.webp" type="image/webp">
+                  <img src="assets/Sertifikat Score Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.jpg.jpg" alt="Score: Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Score Pembelajaran Modul Pencegahan & Penanganan Kekerasan Seksual.jpg.jpg</figcaption>
+              </figure>
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Panitia PKKMB.webp" type="image/webp">
+                  <img src="assets/Sertifikat Panitia PKKMB.jpg" alt="Panitia PKKMB" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Panitia PKKMB.jpg</figcaption>
+              </figure>
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Menulis ISDS.webp" type="image/webp">
+                  <img src="assets/Sertifikat Menulis ISDS.jpg" alt="Menulis" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Menulis ISDS.jpg</figcaption>
+              </figure>
+              <figure class="cert-slide">
+                <picture>
+                  <source srcset="assets/Sertifikat Anggota Himpunan.webp" type="image/webp">
+                  <img src="assets/Sertifikat Anggota Himpunan.jpg" alt="Anggota Himpunan" loading="lazy" decoding="async">
+                </picture>
+                <figcaption class="cert-filename muted">Sertifikat Anggota Himpunan.jpg</figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="slider-next" aria-label="Next">›</button>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <div class="contact-cards">
+          <div class="contact-grid modern-cards">
+            <a class="contact-item card" href="mailto:zonyfatma3@gmail.com">
+              <div class="ci-icon" aria-hidden="true">📧</div>
+              <div class="ci-body"><strong>Email</strong><div class="ci-info">zonyfatma3@gmail.com</div></div>
+            </a>
+            <a class="contact-item card" href="https://github.com/zonyfatma" target="_blank" rel="noopener">
+              <div class="ci-icon" aria-hidden="true">🐱</div>
+              <div class="ci-body"><strong>GitHub</strong><div class="ci-info">github.com/zonyfatma</div></div>
+            </a>
+            <a class="contact-item card" href="https://www.linkedin.com/in/zoni-fatma-mulia-005438410/" target="_blank" rel="noopener">
+              <div class="ci-icon" aria-hidden="true">🔗</div>
+              <div class="ci-body"><strong>LinkedIn</strong><div class="ci-info">/in/zoni-fatma-mulia</div></div>
+            </a>
+            <a class="contact-item card" href="https://instagram.com/zonyfm_" target="_blank" rel="noopener">
+              <div class="ci-icon" aria-hidden="true">📸</div>
+              <div class="ci-body"><strong>Instagram</strong><div class="ci-info">@zonyfm_</div></div>
+            </a>
+            <a class="contact-item card" href="https://wa.me/6283166341280" target="_blank" rel="noopener">
+              <div class="ci-icon" aria-hidden="true">💬</div>
+              <div class="ci-body"><strong>WhatsApp</strong><div class="ci-info">+62 831-6634-1280</div></div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer modern-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>Zoni Fatma Mulia</h3>
+          <p class="footer-role">Frontend Developer & UI/UX Enthusiast</p>
+          <p class="footer-desc muted">I build polished web interfaces and thoughtful UX for web applications. Available for freelance and collaborations.</p>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-socials" aria-label="Social links">
+            <a href="https://github.com/zonyfatma" target="_blank" rel="noopener" aria-label="GitHub"><span class="fs-icon" aria-hidden="true">🐱</span><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/zoni-fatma-mulia-005438410/" target="_blank" rel="noopener" aria-label="LinkedIn"><span class="fs-icon" aria-hidden="true">🔗</span><span>LinkedIn</span></a>
+            <a href="https://instagram.com/zonyfm_" target="_blank" rel="noopener" aria-label="Instagram"><span class="fs-icon" aria-hidden="true">📸</span><span>Instagram</span></a>
+            <a href="mailto:zonyfatma3@gmail.com" aria-label="Email"><span class="fs-icon" aria-hidden="true">✉️</span><span>Email</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom"><small>© <span id="year"></span> Zoni Fatma Mulia — All rights reserved.</small></div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close">×</button>
+      <img id="lightbox-img" src="" alt="Preview">
+    </div>
+
+    <script src="script.js"></script>
+    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  </body>
+</html>
